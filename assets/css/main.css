@@ -4,7 +4,7 @@
 
 header {
   background-color: #fff;
-  height: 33em;
+  height: 35em;
 }
 
 header .back-header{
@@ -40,19 +40,20 @@ nav {
 }
 
 .float {
-	height: 500px;
+	height: 400px;
 	width: 100%;
 	position: absolute;
-	bottom: 0;
+	bottom: 010em;
 }
 
 .icons {
 	width: 600px;
-	height: 400px;
+	height: 100px;
 	background-size: 40%;
 	background-position: center;
 	display: inline-block;
 	position: absolute;
+	bottom: 0;
 }
 
 .bike {
