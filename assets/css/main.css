@@ -3,12 +3,27 @@
 }
 
 header {
+  background-color: #fff;
+  height: 33em;
+}
+
+header .back-header{
   background-color: #9ACCEF;
-  height: 32em;
+	background-size: 345%;
+	background-position: 100% 0%;
+  height: 31em;
+	z-index: -100;
 }
 
 header * {
   color: #fff;
+}
+
+header .align-middle {
+	height: 31em;
+	position: absolute;
+	width: 100%;
+	top: 15%;
 }
 
 nav {
@@ -20,9 +35,44 @@ nav {
   padding: 0;
 }
 
+.blue {
+	background-color: #1280C9;
+}
+
+.float {
+	height: 500px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+
+.icons {
+	width: 600px;
+	height: 400px;
+	background-size: 40%;
+	background-position: center;
+	display: inline-block;
+	position: absolute;
+}
+
+.bike {
+	left: 0;
+}
+
+.house {
+	width: 800px;
+	height: 600px;
+	right: 0;
+	background-size: cover;
+}
+
+
 /*How It Works*/
 .elipse {
   border-radius: 100%;
   background-color: #FFCC66;
-  height: 15em;
+	background-size: 70%;
+	background-position: 50% 40%;
+  height: 18em;
+	width: 18em;
 }
