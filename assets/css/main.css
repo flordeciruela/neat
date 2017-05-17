@@ -1,0 +1,28 @@
+* {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+header {
+  background-color: #9ACCEF;
+  height: 32em;
+}
+
+header * {
+  color: #fff;
+}
+
+nav {
+  width: 90%;
+}
+
+.navbar-right {
+  margin: 0;
+  padding: 0;
+}
+
+/*How It Works*/
+.elipse {
+  border-radius: 100%;
+  background-color: #FFCC66;
+  height: 15em;
+}
