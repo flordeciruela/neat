@@ -108,3 +108,23 @@ nav {
 #cleaning-checklist {
 	background-color: #3498DB;
 }
+
+/*Footer*/
+footer {
+	background-color: #3498DB;
+	color: #fff;
+	padding: 60px 0;
+}
+
+footer a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
