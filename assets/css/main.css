@@ -2,6 +2,19 @@
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
+section {
+	padding: 100px 0;
+}
+
+.text-white {
+	color: #fff !important;
+}
+
+#alerta {
+	background-color: #ED7161 !important;
+	border-radius: none;
+}
+
 header {
   background-color: #fff;
   height: 35em;
@@ -69,6 +82,9 @@ nav {
 
 
 /*How It Works*/
+#guarantee {
+	background-color: #f9f9f9;
+}
 .elipse {
   border-radius: 100%;
   background-color: #FFCC66;
@@ -76,4 +92,19 @@ nav {
 	background-position: 50% 40%;
   height: 18em;
 	width: 18em;
+}
+
+/*Our Promise*/
+#our-promise {
+	background-color: #fff;
+}
+
+/*Our Comunity*/
+#our-comunity {
+	background-color: #75B9E7;
+}
+
+/*Cleaning Checklist*/
+#cleaning-checklist {
+	background-color: #3498DB;
 }
